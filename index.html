@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="LLaMA-VID">
+  <meta name="keywords" content="GPT-4, open-source, vision-language">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LLaMA-VID</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <link rel="shortcut icon" href="path/to/favicon.ico" type="image/x-icon">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  </head>
+
+  <style>
+
+    #main{
+        position: relative;;
+        width: 1200px;
+    }
+
+    .box{
+        float: left;
+        padding: 15px 0 0 15px;
+/*        background-color: red;*/
+    }
+
+    .pic{
+        width: 500px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .pic img{
+        width: 500px;
+    }
+
+  </style>
+
+  <body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h2 class="title is-2 publication-title">LLaMA-VID:An Image is Worth 2 Tokens in Large Language Models</h2>
+          <div class="is-size-5">
+            <span class="author-block">
+                <a href="https://yanwei-li.com/" style="color:#008AD7;font-weight:normal;">Yanwei Li*<sup></sup></a>,                
+            </span>
+
+            <span class="author-block">
+              <a href="https://github.com/wcy1122" style="color:#008AD7;font-weight:normal;">Chengyao Wang*<sup></sup></a>,                
+            </span>
+            <span class="author-block">
+              <a href="https://jiaya.me/" style="color:#008AD7;font-weight:normal;">Jiaya Jia<sup></sup></a>,                
+            </span>
+            
+          </div>
+          
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><b style="color:#008AD7; font-weight:normal">&#x25B6 </b> The Chinese University of Hong Kong </span>
+          </div>
+
+          <br>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              
+              
+              <span class="link-block">
+                <a href="https://github.com/dvlab-research/LLaMA-VID" target="_blank" 
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              
+              <span class="link-block">
+                      <a href="https://huggingface.co/YanweiLi" target="_blank"
+                         class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        🤗
+                      </span>
+                      <span>Models</span>
+                    </a>
+                  </span>
+              
+              <span class="link-block">
+                <a href="https://huggingface.co/datasets/YanweiLi/LLaMA-VID-Data" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fa fa-laugh"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+              </span>
+
+              <span class="link-block">
+                <a href="" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <p>
+            <strong><font>Updates</font></strong>: LLaMA-VID is comming! We release the paper, code, data, models, and demo for LLaMA-VID.
+            <br>
+            </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Demo</h2>
+          <div class="content has-text-justified">
+            <p>
+              Comming Soon!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+      <br>
+    <br> 
+
+<!-- <div align="center">
+<iframe
+  id="gradio"
+	src=""
+	frameborder="0"
+	width="1300"
+	height="1400"
+></iframe>
+</div> -->
+
+<link rel="stylesheet" type="text/css" href="js/simple_style.css" />
+<script type="text/javascript" src="js/simple_swiper.js"></script>
+
+<section class="section">
+  <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+          <p>
+            We present a novel method to tackle the token generation challenge in Vision Language Models (VLMs) for video and image understanding, called LLaMA-VID. 
+            Current VLMs, while proficient in tasks like image captioning and visual question answering, face computational burdens when processing long videos due to the excessive visual tokens. 
+            LLaMA-VID addresses this issue by representing each frame with two distinct tokens, namely context token and content token. 
+            The context token encodes the overall image context based on user input, whereas the content token encapsulates visual cues in each frame. 
+            This dual-token strategy significantly reduces the overload of long videos while preserving critical information. 
+            Generally, LLaMA-VID empowers existing frameworks to support hour-long videos and pushes their upper limit with an extra context token. 
+          </p>
+          </div>
+      </div>
+      </div>
+      <br>
+      <br>
+
+<!-- Paper Model. -->
+<div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Model</h2>
+      <div class="content has-text-justified">
+        <p>
+          LLaMA-VID simplely contains three prats: encoder and decoder are adopted to produce visual embedding and text-guided features, respectively; context token and content token are transformed with the tailored token generation strategy; instruction tuning is designed to unleash the potential of LLMs for image and video.
+        </p>
+      </div>  
+      <img id="model" width="100%" src="images/overview.png">
+      </h3>   
+    </div>
+  </div>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+@article{li2023llamavid,
+  title={LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models},
+  author={Li, Yanwei and Wang, Chengyao and Jia, Jiaya},
+  journal={arXiv preprint},
+  year={2023}
+}
+  </code></pre>
+    </div>
+  </section>
+  
+
+  <section class="section" id="Acknowledgement">
+    <div class="container is-max-desktop content">
+      <h2 class="title">Acknowledgement</h2>
+      <p>
+        This website is adapted from <a
+        href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, licensed under a <a rel="license"
+                                            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+        Commons Attribution-ShareAlike 4.0 International License</a>.
+      </p>
+    </div>
+  </section>
+
+<section class="section">
+    <!-- Results. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-six-fifths">
+        <h2 class="title is-3">Examples</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<script src="js/Underscore-min.js"></script>
+<script src="js/index.js"></script>
+
+<section class="section">
+    <div id="main">
+      <div class="box"><div class="pic"><img src="demos/demo_0.png" alt=""></div>
+      <div class="box"><div class="pic"><img src="demos/demo_1.png" alt=""></div>
+      <div class="box"><div class="pic"><img src="demos/demo_2.png" alt=""></div>
+      <div class="box"><div class="pic"><img src="demos/demo_3.png" alt=""></div>
+      <div class="box"><div class="pic"><img src="demos/demo_4.png" alt=""></div>
+      <div class="box"><div class="pic"><img src="demos/demo_5.png" alt=""></div>
+      <div class="box"><div class="pic"><img src="demos/demo_6.png" alt=""></div>
+      <div class="box"><div class="pic"><img src="demos/demo_7.png" alt=""></div>
+      <div class="box"><div class="pic"><img src="demos/demo_8.png" alt=""></div>
+    
+    </div>
+    
+</section>
+
+
+    
+
+</body>
+
+</html>
