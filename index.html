@@ -2,7 +2,6 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <meta name="description"
         content="LLaMA-VID">
   <meta name="keywords" content="GPT-4, open-source, vision-language">
@@ -100,6 +99,16 @@
               </span>
               
               <span class="link-block">
+                <a href="http://103.170.5.190:7864/" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fa fa-laugh"></i>
+                  </span>
+                  <span>Demo</span>
+                  </a>
+              </span>
+
+              <span class="link-block">
                       <a href="https://huggingface.co/YanweiLi" target="_blank"
                          class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -108,16 +117,6 @@
                       <span>Models</span>
                     </a>
                   </span>
-              
-              <span class="link-block">
-                <a href="https://huggingface.co/datasets/YanweiLi/LLaMA-VID-Data" target="_blank"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fa fa-laugh"></i>
-                  </span>
-                  <span>Data</span>
-                  </a>
-              </span>
 
               <span class="link-block">
                 <a href="https://arxiv.org/abs/2311.17043" target="_blank"
@@ -159,7 +158,7 @@
           <h2 class="title is-3">Demo</h2>
           <div class="content has-text-justified">
             <p>
-            Welcome to try our demo of LLaMA-VID! Choose a movie and sub section, you can chat with the movie! 
+            Welcome to try our <a href="http://103.170.5.190:7864/" style="color:#d7001d;font-weight:normal;">demo<sup></sup></a> of LLaMA-VID! Choose a movie and sub section, you can chat with the movie! 
             It is implemented in a single 3090 GPU and support 30-min video in this demo. 
             If you want to have a full experience, please consider using larger GPU memory.
             </p>
@@ -170,7 +169,7 @@
       <br>
     <br> 
 
-<div align="center">
+<!-- <div align="center">
 <iframe
   id="gradio"
 	src="http://103.170.5.190:7864/"
@@ -178,7 +177,7 @@
 	width="1300"
 	height="2300"
 ></iframe>
-</div>
+</div> -->
 
 <link rel="stylesheet" type="text/css" href="js/simple_style.css" />
 <script type="text/javascript" src="js/simple_swiper.js"></script>
